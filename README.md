@@ -1,5 +1,4 @@
-# AnimatedSwitchImageDemo
-Animated switch Image demo.
+# 动画切换Image最佳实践
 
 ### 前言
 
@@ -15,7 +14,7 @@ Animated switch Image demo.
 
 下面是其中一种简单的实现
 
-```
+```Objective-c
 @implementation UIImageView (RFWebImage)
 
 - (void)animatedChangeToImage:(UIImage *)img
@@ -59,7 +58,7 @@ Animated switch Image demo.
 
 **下面是样板代码：**
 
-```
+```Objective-c
 - (void)animatedSwichImageMethodOne {
 
     UIImage *toImage = [self getRadomImage];
@@ -77,7 +76,7 @@ Animated switch Image demo.
 
 #### UIView动画转场
 
-```
+```Objective-c
 + (void)transitionWithView:(UIView *)view duration:(NSTimeInterval)duration options:(UIViewAnimationOptions)options animations:(void (^ __nullable)(void))animations completion:(void (^ __nullable)(BOOL finished))completion NS_AVAILABLE_IOS(4_0);
 ```
 
@@ -85,7 +84,7 @@ Animated switch Image demo.
 
 **下面是样板代码：**：
 
-```
+```Objective-c
 - (void)animatedSwichImageMethodTwo {
     
     UIImage *toImage = [self getRadomImage];
@@ -106,7 +105,7 @@ Animated switch Image demo.
 
 **下面是样板代码：**
 
-```
+```Objective-c
 - (void)animatedSwichImageMethodThree {
     
     UIImage *toImage = [self getRadomImage];
@@ -121,8 +120,3 @@ Animated switch Image demo.
 ```
 
 更多内容请下载Demo查看（**Bonus： Flip效果**）
-
-
-
-
-
