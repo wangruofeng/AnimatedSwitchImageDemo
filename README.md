@@ -122,8 +122,6 @@ Animated switch Image demo.
 
 更多内容请下载Demo查看（**Bonus： Flip效果**）
 
-* [Demo地址](https://github.com/wangruofeng/AnimatedSwitchImageDemo)
-
 
 
 
