@@ -56,7 +56,7 @@
 * kCATransitionPush    // 把原来的推出去，自己推出去
 * kCATransitionReveal  // 把原来的从正上方解开，自己在下面
 
-**下面是样板代码：**
+*下面是样板代码：*
 
 ```Objective-c
 - (void)animatedSwichImageMethodOne {
@@ -82,7 +82,7 @@
 
 通过上面的函数实现，其实是对第一种的高级封装。通过设置`options`为`UIViewAnimationOptionTransitionCrossDissolve`即可。
 
-**下面是样板代码：**：
+*下面是样板代码：*
 
 ```Objective-c
 - (void)animatedSwichImageMethodTwo {
@@ -103,7 +103,7 @@
 `CABasicAnimation`是核心动画一个重要的类，继承至`CAPropertyAnimation`，可以对所有的可动画属性做动画，可以通过`fromValue`，`toValue`，`byValue`字段控制动画的进度。
 在这里我们是对`CALayer`的`contents`属性做动画，在改变图片时，创建一个`CABasicAnimation`对象添加到ImageView的图层上即可。
 
-**下面是样板代码：**
+*下面是样板代码：*
 
 ```Objective-c
 - (void)animatedSwichImageMethodThree {
@@ -120,3 +120,4 @@
 ```
 
 更多内容请下载Demo查看（**🤔Bonus： Flip效果🤔**）
+喜欢该文章的请打💖，以便鼓励我继续创作，非常谢谢。
