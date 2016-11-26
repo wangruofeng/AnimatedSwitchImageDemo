@@ -120,7 +120,8 @@
 ```
 
 Demo效果图:
+
 ![Demo效果图](https://github.com/wangruofeng/AnimatedSwitchImageDemo/blob/master/AnimatedSwitchImageDemo/screenShot%402x.jpg)
 
-更多内容请下载Demo查看（**🤔Bonus： Flip效果🤔**）
-喜欢该文章的请打💖，以便鼓励我继续创作，非常谢谢。
+> 更多内容请下载Demo查看（**🤔Bonus： Flip效果🤔**）
+> 喜欢该文章的请打💖，以便鼓励我继续创作，非常谢谢。
