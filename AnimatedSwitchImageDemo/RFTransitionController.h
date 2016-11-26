@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RFTransitionController.h
 //  AnimatedSwitchImageDemo
 //
 //  Created by 王若风 on 11/26/16.
@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "RFBaseController.h"
 
-@interface ViewController : RFBaseController
-
+@interface RFTransitionController : RFBaseController
 
 @end
-

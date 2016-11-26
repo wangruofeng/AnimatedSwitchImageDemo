@@ -13,6 +13,9 @@
 		0EE502C71DE9726300D85311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE502C51DE9726300D85311 /* Main.storyboard */; };
 		0EE502C91DE9726300D85311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE502C81DE9726300D85311 /* Assets.xcassets */; };
 		0EE502CC1DE9726300D85311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE502CA1DE9726300D85311 /* LaunchScreen.storyboard */; };
+		0EE502D61DE9844100D85311 /* RFTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE502D41DE9844100D85311 /* RFTransitionController.m */; };
+		0EE502DA1DE9975400D85311 /* RFFlipTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE502D91DE9975400D85311 /* RFFlipTransitionController.m */; };
+		0EE502DD1DE9990800D85311 /* RFBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE502DC1DE9990800D85311 /* RFBaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		0EE502C81DE9726300D85311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EE502CB1DE9726300D85311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EE502CD1DE9726300D85311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE502D31DE9844100D85311 /* RFTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTransitionController.h; sourceTree = "<group>"; };
+		0EE502D41DE9844100D85311 /* RFTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTransitionController.m; sourceTree = "<group>"; };
+		0EE502D81DE9975400D85311 /* RFFlipTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFFlipTransitionController.h; sourceTree = "<group>"; };
+		0EE502D91DE9975400D85311 /* RFFlipTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFFlipTransitionController.m; sourceTree = "<group>"; };
+		0EE502DB1DE9990800D85311 /* RFBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBaseController.h; sourceTree = "<group>"; };
+		0EE502DC1DE9990800D85311 /* RFBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFBaseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				0EE502BF1DE9726300D85311 /* AppDelegate.h */,
 				0EE502C01DE9726300D85311 /* AppDelegate.m */,
+				0EE502DB1DE9990800D85311 /* RFBaseController.h */,
+				0EE502DC1DE9990800D85311 /* RFBaseController.m */,
 				0EE502C21DE9726300D85311 /* ViewController.h */,
 				0EE502C31DE9726300D85311 /* ViewController.m */,
+				0EE502D31DE9844100D85311 /* RFTransitionController.h */,
+				0EE502D41DE9844100D85311 /* RFTransitionController.m */,
+				0EE502D81DE9975400D85311 /* RFFlipTransitionController.h */,
+				0EE502D91DE9975400D85311 /* RFFlipTransitionController.m */,
 				0EE502C51DE9726300D85311 /* Main.storyboard */,
 				0EE502C81DE9726300D85311 /* Assets.xcassets */,
 				0EE502CA1DE9726300D85311 /* LaunchScreen.storyboard */,
@@ -153,7 +168,10 @@
 			files = (
 				0EE502C41DE9726300D85311 /* ViewController.m in Sources */,
 				0EE502C11DE9726300D85311 /* AppDelegate.m in Sources */,
+				0EE502D61DE9844100D85311 /* RFTransitionController.m in Sources */,
 				0EE502BE1DE9726300D85311 /* main.m in Sources */,
+				0EE502DD1DE9990800D85311 /* RFBaseController.m in Sources */,
+				0EE502DA1DE9975400D85311 /* RFFlipTransitionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
